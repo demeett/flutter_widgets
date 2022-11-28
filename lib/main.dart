@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widget/widgets/card_widget/card_learn_view.dart';
+import 'package:flutter_widget/widgets/stack/stack_learn.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,6 +15,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const CardLearnView());
+        home: const StackLearn());
   }
 }
