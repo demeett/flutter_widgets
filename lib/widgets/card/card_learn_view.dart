@@ -143,3 +143,5 @@ class WidgetSizes {
   static const String imageSushi = "assets/images/sushi.png";
   static RoundedRectangleBorder rectangle = RoundedRectangleBorder(borderRadius: BorderRadius.circular(20));
 }
+
+
